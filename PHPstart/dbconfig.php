@@ -1,8 +1,8 @@
 <?php
 
 $hostname = "14.34.17.167"; //주소 http://제외
-$username = "Webteam"; //mysql 아이디
-$password = "websimple"; //mysql 비번
+$username = "id"; //mysql 아이디
+$password = "pass"; //mysql 비번
 $dbname = "test2"; //접속할 DB
 $port ="3308";
 
