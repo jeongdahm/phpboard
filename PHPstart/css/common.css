@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+@font-face{font-family:'Noto-Sans';font-weight:400;  src:url('../font/NotoSans-Regular.woff') format('woff');} 
+*{text-decoration: none;-webkit-tap-highlight-color: transparent;    margin: 0;    padding: 0;font-family: 'Noto-Sans', sans-serif;}
+li{list-style:none;width:120px;float:left;text-align:center;}
+
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:active { text-decoration: none;}
+a:hover {text-decoration:none;color:black;}
+.pointer{cursor:pointer}
+
+h2{text-align:center;}
+
+.boardArticle{width:900px; margin:0 auto; display:block;padding-top:50px;}
+.bList{margin-top:50px;margin-bottom:20px;}
+.bList th, .bList  td{clear:both; border-bottom: 1px solid gainsboro;text-align:center;}
+.bList .no{width:50px;}
+.bList .title{width:300px;}
+.bList .author{width:200px;}
+.bList .date{width:150px;}
+.bList .genre{width:100px;}
+.bList .hit{width:100px;}
+.readHide{display:none;}
+
+.paging {width:200px;height:50px;display:block;text-align:center;margin:0 auto;}
+.paging li{width:30px;}
+
+.boardArticle2{width:600px; margin:0 auto; display:block;padding-top:50px;}
+.wForm{margin-top:50px;margin-bottom:20px;border:1px solid gainsboro;}
+.wForm th, td{clear:both; text-align:center;}
+.wForm th{width:200px;}
+.wForm td{width:400px;}
+.wForm input{width:380px;height:30px;}
+.wForm textarea{width:380px;height:60px;}
+
+.btnSet{width:200px;height:35px;margin: 0 auto;}
+.btnSet button{width:90px;height:30px;}
+.btnSet a{float:right;    width: 50px; display: block;}
+
+.img_size{width:500px;display:block;margin:0 auto;}
